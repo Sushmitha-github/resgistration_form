@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="booking-form.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</html>
+<form id="booking-form.css" method="post" action="">
+  <h1>Make a Reservation</h1>
+
+  <div class="form-group">
+    <label for="date"></label>
+    <i class="fa fa-calendar"></i>
+    <input type="date" id="date" name="date" required font face="Arial" size="30" placeholder="Date">
+  </div>
+
+  <div class="form-group">
+    <label for="time"><i class="fa fa-hourglass-end"></i></label>
+    <input type="time" id="time" name="time" required placeholder="Time">
+  </div>
+
+  <div class="form-group">
+    <label for="guests"><i class="fa fa-user"></i><i class="fa fa-user"></i></label>
+    <input type="number" id="guests" name="guests" min="1" max="10" required placeholder="Number of guests">
+  </div>
+
+  <div class="form-group">
+    <label for="name"><i class="fa fa-user"></i></label>
+   <input type="text" id="name" name="name" required placeholder="Name">
+   
+  </div>
+
+  <div class="form-group">
+    <label for="email"><i class="fa fa-envelope"></i></label>
+    <input type="email" id="email" name="email" required placeholder="Email">
+  </div>
+
+  <div class="form-group">
+    <label for="phone"><i class="fa fa-phone"></i></label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="phone">
+    <small> <font size="4" color="black">Format: 123-456-7890</font></small>
+  </div>
+
+  <div class="form-group">
+    <label for="notes"></label>
+    
+    <textarea id="notes" name="notes" <input placeholder="Notes"></textarea>
+    <i class="fa fa-hand-o-right"></i>
+  </div>
+  <a href="C:\Users\Sanjay\Documents\booking_form\Table_booking_form.html">
+<button type="submit">Submit</button>
+  </a>
+</form>
+
+
